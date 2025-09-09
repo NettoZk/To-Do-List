@@ -60,8 +60,13 @@ export function App() {
       <section className={styles.content}>
         <div className={styles.taskInfoContainer}>
           <Input
-            onChange={(e) => setInputName(e.target.value)}
             value={inputName}
+            onChange={(e) => setInputName(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') {
+                addTask();
+              }
+            }}
           />
           <Button onClick={addTask}>
             Criar

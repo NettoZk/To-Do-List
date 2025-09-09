@@ -79,7 +79,7 @@ export interface ITask {
 }
 Essa interface é então utilizada na declaração do estado tasks, como visto na seção anterior.
 
-## Efeitos Colaterais (useEffect)**
+## Efeitos Colaterais (useEffect)
 
 Nesta aplicação, o hook useEffect não foi necessário.
 

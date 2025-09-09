@@ -70,16 +70,17 @@ Para garantir a integridade dos dados e aproveitar os benefícios da verificaç�
 
 Isso assegura que todo objeto de tarefa na aplicação terá sempre as propriedades id, text e isChecked com os tipos corretos, evitando erros comuns.
 
-TypeScript
 
+```TypeScript
 export interface ITask {
   id: number;
   text: string;
   isChecked: boolean;
 }
+```
 Essa interface é então utilizada na declaração do estado tasks, como visto na seção anterior.
 
-## Efeitos Colaterais (useEffect)**
+## Efeitos Colaterais (useEffect)
 
 Nesta aplicação, o hook useEffect não foi necessário.
 

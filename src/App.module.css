@@ -56,3 +56,15 @@
 .tasksList {
   margin-top: 1rem;
 }
+
+.leftContent {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.favButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
